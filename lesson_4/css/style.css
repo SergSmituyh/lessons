@@ -1,0 +1,41 @@
+@import url(reset.css);
+* {
+    color: rgb(210, 30, 141);
+}
+p {
+    color: green;
+}
+a {
+    color: gold;
+}
+li {
+    color: blueviolet;
+}
+.title {
+    color: rgb(180, 119, 27);
+}
+#legend {
+    color: blue;
+}
+#zidane {
+    color: brown;
+}
+a.one {
+    color: chartreuse;
+}
+a.two {
+    color: rgb(26, 15, 170);
+}
+.championship_players.beautiful-game {
+    color: palevioletred;
+}
+.relation
+{ 
+    color: darkred;
+}
+.evro,
+li,
+.championship {
+    color: rgb(238, 16, 16);
+}
+
