@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Kyiv Type Sans";
+    src: url("../fonts/KyivTypeSans-Regular-.woff2") format("woff2"),
+         url("../fonts/KyivTypeSans-Regular-.woff") format("woff");
+         font-weight: 400;
+         font-style: normal;
+         font-display: swap;    
+}
+@import url("https://fonts.googleapis.com/css?family=Poppins:700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500&display=swap");
+    
