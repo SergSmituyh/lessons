@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Kufi+Arabic:600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500,600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,600,700&display=swap");
+@font-face {
+    font-family: "JenaGotish";
+    src: url("../fonts/JenaGotisch.woff2") format("woff2"),
+    url("../fonts/JenaGotisch.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap; 
+}
