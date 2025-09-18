@@ -1,0 +1,492 @@
+@import url("fonts.css");
+@import url("reset.css");
+.practise, header, footer {
+    background-color: darkgrey;
+    padding: 0 20px;
+}
+header, footer {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+}
+.links {
+    font-family: "Poppins", sans-serif;
+    width: 600px;
+    margin: 100px auto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4;
+    border: 4px solid gold;
+    padding: 15px;
+    background-color: rgb(102, 206, 206);
+    text-align: center;
+}
+.link:hover {
+    color: blueviolet;
+    border-bottom: 2px solid;
+    background-color: rgb(16, 180, 180);
+}
+.links2 {
+    font-family: "Poppins", sans-serif;
+    width: 600px;
+    margin: 100px auto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4;
+    border: 4px solid rgb(0, 89, 255);
+    padding: 15px;
+    background-color: rgb(161, 206, 102);
+    text-align: center;
+}
+.link2:active {
+    background-color: #898b11;
+    border: 2px dashed red;
+}
+.links3 {
+    font-family: "Poppins", sans-serif;
+    width: 600px;
+    margin: 100px auto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4;
+    border: 4px solid rgb(0, 255, 255);
+    padding: 15px;
+    background-color: rgb(177, 25, 190);
+    text-align: center;
+}
+.link3:visited {
+    color: rgb(156, 172, 13);
+}
+.links4 {
+    font-family: "Poppins", sans-serif;
+    width: 600px;
+    margin: 100px auto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4;
+    border: 4px solid rgb(255, 153, 0);
+    padding: 15px;
+    background-color: rgb(25, 102, 190);
+    text-align: center;
+}
+.link4:focus {
+    border: 3px dashed rgb(128, 15, 0);
+}
+.effect {
+    font-size: 30px;
+}
+.square {
+    width: 400px;
+    height: 400px;
+    background-color: #107a0c;
+    visibility: hidden;
+    margin-right: 20px;
+    display: inline-block;
+}
+.square:target {
+    visibility: visible;
+}
+.text-1 *:last-child {
+    text-transform: uppercase;
+    background-color: aqua;
+    margin-bottom: 0;
+}
+.text-1, .text-2, .text-3, .text-4, .text-5, .text-6, .text-7, .text-8, .text-9, .text-10, .text-11 {
+    margin-bottom: 50px;
+    max-width: 650px;
+    margin: 50px auto;
+}
+.text-2 *:first-child {
+    color: #9312ad;
+    text-shadow: 1px 5px 5px #02194b;
+    font-size: 20px;
+}
+.text-3 p:last-child {
+    color: brown;
+    font-size: 22px;
+}
+.text-4 a:last-of-type {
+    color: crimson;
+}
+.text-5 p:nth-child(even){
+    color: #9312ad;
+}
+.text-6 p:nth-child(3), .text-6 p:nth-child(5){
+    color: blue;
+}
+.text-7 p:nth-child(3n+1) {
+    color: #107a0c;
+}
+.text-7 p:nth-child(3n+2) {
+    color: #7a0c4c;
+}
+.text-8 p:not(:last-child){
+    margin-bottom: 15px;
+    color: chocolate;
+}
+.text-9 {
+    background-color: #107a0c;
+}
+.text-9::before {
+    content: "Content ::BEFORE";
+    color: #7a0c4c;
+    font-size: 25px;
+    font-weight: 700;
+}
+.text-10 {
+    background-color: #11e41f;
+}
+.text-10::after {
+    content: "Content ::AFTER";
+    color: #3b0d28;
+    font-size: 25px;
+    font-weight: 700;
+}
+.text-11:hover::before {
+    opacity: 0.5;
+}
+.text-11::before {
+    content: "";
+	background-color: #2316da;
+	border-radius: 50%;
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+}
+.game {
+    background-color: aquamarine;
+    min-width: 1400px;
+    min-height: 1000px;
+    font-size: 0;
+}
+.line {
+    background-color: #2333be;
+    visibility: hidden;
+}
+.line-1 {
+    width: 70px;
+    height: 70px;
+    visibility: visible;
+    color: coral;
+    font-size: 20px;
+    padding: 15px;
+}
+.line-2 {
+    width: 70px;
+    height: 150px;
+}
+.line-3 {
+    width: 700px;
+    height: 20px;
+}
+.line-4 {
+    margin-left: 630px;
+    height: 200px;
+    width: 70px;
+}
+.line-5 {
+    margin-left: 100px;
+    height: 15px;
+    width: 600px;
+}
+.line-6 {
+    margin-left: 100px;
+    height: 150px;
+    width: 25px;
+}
+.line-7 {
+    height: 250px;
+    width: 250px;
+    color: coral;
+    font-size: 40px;
+    text-align: center;
+    padding: 70px;
+}
+.line:hover,
+.line:hover + .line {
+    visibility: visible;
+}
+/* ----------------------------- Макети -------------------------------*/
+.models {
+    margin: 50px 50px;
+}
+.business-plan {
+    max-width: 692px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+.title-style {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.27;
+    text-align: left; 
+    text-transform: capitalize;
+    color: rgb(55, 57, 63);
+    margin-bottom: 6px;
+}
+.business-block-consulting {
+    margin-bottom: 39px;
+}
+.business-text-1 {
+    margin-bottom: 42px;
+}
+.text-module {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    line-height: 1.47;
+    color: rgb(125, 125, 125);
+    text-align: left;
+}
+.busines-benefits-image {
+    width: 331px;
+    margin-right: 29px;
+}
+.busines-benefits-text {
+    max-width: 332px;
+    display: inline-block;
+}
+.business-sub-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: rgb(107, 119, 229);
+    font-weight: 600;
+    line-height: 1.27;
+    text-align: left;
+    margin-bottom: 12px;
+}
+.business-block-benefits {
+    font-size: 0;
+    margin: 0 auto 50px;
+}
+.business-benefits-sub-title {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.business-benefits-sub-title-2 {
+    font-size: 20px;
+    color: rgb(64, 221, 182);
+    margin-bottom: 21px;
+}
+.business-benefits-list {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    color: rgb(125, 125, 125);    
+}
+.business-benefits-list li:not(:last-child) {
+    margin-bottom: 34px;
+}
+.business-benefits-list-item::before {
+    content: "";
+    width: 27px;
+    height: 27px;
+    background: url(../img/vector.png) 0 0 / contain no-repeat;
+    margin-bottom: -6px;
+    margin-right: 8px 
+}
+.business-benefits-list-item {
+    line-height: 1.2;
+}
+.we-care {
+    color: rgb(125, 125, 125);
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.46;
+    text-align: left;
+    width: 673px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.we-care-first-block {
+    margin-bottom: 48px;
+}
+.we-care-sub-title::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background: url(../img/square.png) 0 0 / contain no-repeat; 
+    margin-right: 5px;
+}
+.we-care-sub-title {
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.we-care-title {
+    color: rgb(55, 57, 63);
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.5;
+    max-width: 413px;
+    margin-bottom: 4px;
+}
+.we-care-text-block {
+    margin-top: -10px;
+}
+.we-care-text-block p:not(:last-child) {
+    margin-bottom: 32px;
+}
+.we-care-text-box {
+    width: 675px;
+    height: 150px;
+    padding: 28px 41px 28px 38px;
+    border: 1px solid rgb(227, 227, 227);
+    text-align: left;
+}
+.we-care-title-text-block-2-subtitle::before {
+    content: "";
+    width: 27px;
+    height: 27px;
+    background: url(../img/vector.png) 0 0 / contain no-repeat;
+    margin-right: 19px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.we-care-text-block-2-text {
+    margin-left: 46px;
+}
+.we-care-title-text-block-2-subtitle {
+    margin-bottom: 12px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    line-height: 1.5;
+    color: rgb(55, 57, 63);
+}
+.box-1 {
+    margin-bottom: 31px;
+}
+.box-2 {
+    margin-bottom: 48px;
+}
+.we-care-second-block-button {
+    background-color: rgb(107, 119, 229);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+    text-transform: capitalize;
+    width: 184px;
+    height: 65px;
+    color: rgb(255, 255, 255);
+    padding: 21px 27px 22px 27px;
+}
+.we-care-second-block-button-inside {
+    width: 130px;
+    height: 22px;
+}
+.how-we-work {
+    margin: 0 auto;
+    color: rgb(125, 125, 125);
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 200px;
+}
+.how-we-work-block-titles {
+    width: 283px;
+    height: 86px;
+    margin: 0 auto;
+    margin-bottom: 77px;
+}
+.how-we-work-sub-title {
+    color: rgb(55, 57, 63);
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 16px;
+}
+.how-we-work-sub-title::before {
+    content: "";
+    background: url(../img/square.png) 0 0 / contain no-repeat;
+    width: 12px;
+    height: 12px;
+    margin-right: 6px;
+}
+.how-we-work-main-title {
+    font-family: "Poppins", sans-serif;
+    color: rgb(55, 57, 63);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.how-we-work-block {
+    width: 386px;
+    height: 301px;
+    display: inline-block;
+    background: rgb(244, 244, 244);
+    padding: 58px 43px;
+    vertical-align: top;
+}
+.how-we-work-block:not(:last-child) {
+    margin-right: 31px;
+}
+.box::before {
+    content: "";
+    display: block;
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    margin: -94px 114px 22px;
+}
+.box:first-child::before {
+    content: "";
+    background: url("../img/icon_appointment.png") center / cover no-repeat;
+}
+.box:nth-child(2):before {
+    background: url("../img/icon_consultation.png") center / cover no-repeat;
+}
+.box:last-child::before {
+    background: url("../img/Icon_enjoy.png") center / cover no-repeat;
+}.how-we-work-block-title {
+    color: rgb(55, 57, 63);
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 16px;
+    text-transform: capitalize;
+}
+.how-we-work-block-text {
+    margin-bottom: 37px;
+}
+.how-we-work-block-link {
+    color: rgb(107, 119, 229);
+    font-weight: 600;
+    line-height: 1.2;
+    text-transform: capitalize;
+}
+.how-we-work-block-link a:hover{
+    text-decoration: underline;
+    color: #2316da;
+    font-weight: 700;
+}
+.we-develope {
+    margin: 0 auto;
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+    font-family: "Cormorant Infant", serif;
+    font-weight: 700;
+    text-align: left;
+    line-height: 1.15;
+    text-transform: capitalize;
+}
+.develope-title {
+    max-width: 488px;
+    display: inline-block;
+}
+.develope-title::after {
+    content: "";
+    display: block;
+    margin-top: 10px;
+    width: 304px;
+    height: 3px;
+    background-color: rgb(120, 71, 59);
+    transition: 1s ease;
+}
+.develope-title:hover::after {
+    width: 0;
+}
